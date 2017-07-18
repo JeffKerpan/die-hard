@@ -1,0 +1,67 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.poster {
+  background-color: red;
+  width: 70vw;
+  height: 80vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border: 20px;
+  /*border-top: 20px;
+  border-bottom: 20px;*/
+  border-color: rgba(209, 180, 151, 1);
+  border-style: solid;
+}
+
+.poster-border {
+  /*top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;*/
+  /*background-color: rgba(209, 180, 151, 1);*/
+}
+
+.explosion {
+  /*background-color: rgba(235, 214, 189, 1);*/
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 25%;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+}
+
+.buttons {
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: rgba(239, 215, 194, 0.9);
+}
+
+
+.c-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
